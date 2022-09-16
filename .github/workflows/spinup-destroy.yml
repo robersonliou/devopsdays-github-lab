@@ -55,7 +55,7 @@ jobs:
       - name: Register the Microsoft.App namespace
         if: success()
         run: |
-          az provider register --namespace Microsoft.App 
+          az provider register --namespace Microsoft.App --wait
       - name: Create the container app environment
         if: success()
         run: |
