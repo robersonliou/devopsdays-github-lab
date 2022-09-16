@@ -11,7 +11,7 @@ env:
   ###############################################
   ### Replace <username> with GitHub username ###
   ###############################################
-  DOCKER_IMAGE_NAME: hello-azure-ttt
+  DOCKER_IMAGE_NAME: roberson-azure-ttt
   AZURE_CONTAINER_APP_NAME: hello-ttt-app
   ###############################################
 
