@@ -56,6 +56,7 @@ jobs:
         if: success()
         run: |
           az provider register --namespace Microsoft.App --wait
+          az provider register -n Microsoft.OperationalInsights --wait
       - name: Create the container app environment
         if: success()
         run: |
