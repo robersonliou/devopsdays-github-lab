@@ -11,8 +11,8 @@ env:
   ###############################################
   ### Replace <username> with GitHub username ###
   ###############################################
-  DOCKER_IMAGE_NAME: <username>-azure-ttt
-  AZURE_CONTAINER_APP_NAME: <username>-ttt-app
+  DOCKER_IMAGE_NAME: roberson-azure-ttt
+  AZURE_CONTAINER_APP_NAME: roberson-ttt-app
   ###############################################
 
 jobs:
